@@ -9,6 +9,7 @@ bin/
 
 # Ignorar logs
 *.log
+*.tmp
 
 # Ignorar Node.js
 node_modules/
@@ -19,6 +20,16 @@ __pycache__/
 # Ignorar arquivos de build
 dist/
 target/
+build/
 
 # Ignorar arquivos sensíveis
 .env
+
+# Configurações locais
+*.iml
+.idea/
+.vscode/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
